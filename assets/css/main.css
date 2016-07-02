@@ -2480,7 +2480,7 @@
 			}
 
 		#header > header {
-			padding: 3em;
+			padding: 2em;
 		}
 
 			#header > header .avatar {
@@ -2574,12 +2574,12 @@
 
 	#one:before {
 		background-image: url("../../images/banner.jpg");
-		background-position: 0% 55%;
+		background-position: 0% 65%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 20em;
 		width: 100%;
 	}
 
@@ -3060,4 +3060,17 @@
 				padding: 0;
 			}
 
+	}
+
+	/*BLUR*/
+	.blur img {
+	  -webkit-transition: all 1s ease;
+	     -moz-transition: all 1s ease;
+	       -o-transition: all 1s ease;
+	      -ms-transition: all 1s ease;
+	          transition: all 1s ease;
+	}
+
+	.blur img:hover {
+	  -webkit-filter: blur(5px);
 	}
